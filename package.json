@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-buildium",
+  "version": "1.0.0",
+  "description": "Buildium's ESLint config, based on AirBnB's ES5 config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildium/eslint-config-buildium.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Jeff Balboni <jeff.balboni@buildium.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/buildium/eslint-config-buildium/issues"
+  },
+  "homepage": "https://github.com/buildium/eslint-config-buildium#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^2.1.1"
+  },
+  "peerDependencies": {
+    "eslint-plugin-buildium": "^1.0.0"
+  }
+}
