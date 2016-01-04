@@ -23,6 +23,6 @@
   "dependencies": {},
   "peerDependencies": {
     "eslint-plugin-buildium": "^1.0.0",
-    "eslint-config-airbnb": "^1.0.2"
+    "eslint-config-airbnb": "1.0.0"
   }
 }
