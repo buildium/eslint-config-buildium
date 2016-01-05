@@ -20,6 +20,7 @@ module.exports = {
         "buildium/func-names": 2,
         "buildium/template-location": 2,
         "buildium/imports-lodash": 2,
-        "buildium/imports-jquery": 2
+        "buildium/imports-jquery": 2,
+        "buildium/imports-angular-bsfy": 2
     }
 };

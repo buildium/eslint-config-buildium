@@ -22,7 +22,7 @@
   "homepage": "https://github.com/buildium/eslint-config-buildium#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint-plugin-buildium": "^1.0.0",
+    "eslint-plugin-buildium": "^1.1.0",
     "eslint-config-airbnb": "1.0.0"
   }
 }
