@@ -8,7 +8,7 @@ Make sure you have the peer dependencies installed:
 
 npm i eslint-plugin-buildium
 
-npm i esling-config-airbnb
+npm i eslint-config-airbnb
 
 And add buildium to your .eslintrc in the extend field:
 
