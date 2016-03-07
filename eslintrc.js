@@ -17,6 +17,7 @@ module.exports = {
         "eol-last": 1, //warn when file doesn't end with newline
         "no-multi-spaces": 0, //we do .constant('blah',     require('blah')) a lot,
         "no-irregular-whitespace": 0, //Some files have a BOM, doesn't seem to cause us problems
+        "no-trailing-spaces": 0, //VS doesn't clean up extra spaces on new lines, so this is annoying
         "buildium/func-names": 2,
         "buildium/template-location": 2,
         "buildium/imports-lodash": 2,
