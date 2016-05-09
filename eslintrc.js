@@ -18,6 +18,17 @@ module.exports = {
         "no-multi-spaces": 0, //we do .constant('blah',     require('blah')) a lot,
         "no-irregular-whitespace": 0, //Some files have a BOM, doesn't seem to cause us problems
         "no-trailing-spaces": 0, //VS doesn't clean up extra spaces on new lines, so this is annoying
+        "no-param-reassign": [2, { "props": false }],
+        "space-before-function-paren": [2, "never"],
+        "import/no-unresolved": 0,
+        "no-underscore-dangle": 0,
+        "max-len": 0,
+        "global-require": 0,
+        "one-var-declaration-per-line": 0,
+        "object-curly-spacing": 0,
+        "quote-props": 0,
+        "newline-per-chained-call": 0,
+        "space-in-parens": 0,
         "buildium/func-names": 2,
         "buildium/template-location": 2,
         "buildium/imports-lodash": 2,
