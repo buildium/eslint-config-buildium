@@ -33,6 +33,8 @@ module.exports = {
         "buildium/template-location": 2,
         "buildium/imports-lodash": 2,
         "buildium/imports-jquery": 2,
-        "buildium/imports-angular-bsfy": 2
+        "buildium/imports-angular-bsfy": 2,
+        "buildium/arrow-function-callback": 2,
+        "buildium/tagged-templates": 2
     }
 };
