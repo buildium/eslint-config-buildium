@@ -29,6 +29,7 @@ module.exports = {
         "quote-props": 0,
         "newline-per-chained-call": 0,
         "space-in-parens": 0,
+        "wrap-iife": [2, "any"],
         "buildium/func-names": 2,
         "buildium/template-location": 2,
         "buildium/imports-lodash": 2,
