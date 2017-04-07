@@ -1,23 +1,34 @@
 module.exports = {
-    "extends": "airbnb/legacy",
+    "extends": "airbnb-base",
     "plugins": [
         "buildium"
     ],
     "rules": {
-        "indent": [2, 4, {"SwitchCase": 1}], //our indentation
-        "comma-dangle": 0, //don't require dangling comma
-        "strict": [2, "global"], //use the global strict keyword
-        "no-else-return": 0, //allow return in else blocks
-        "func-names": 0, //we can use a custom rule for func names
-        "spaced-comment": 0, //don't force a space after in a comment
+        //our indentation
+        "indent": [2, 4, {"SwitchCase": 1}],
+        //don't require dangling comma
+        "comma-dangle": 0,
+        //use the global strict keyword
+        "strict": [2, "global"],
+        //allow return in else blocks
+        "no-else-return": 0,
+        //we can use a custom rule for func names
+        "func-names": 0,
+        //don't force a space after in a comment
+        "spaced-comment": 0,
         "id-length": [2, {"min": 2, "properties": "never", "exceptions": ["$", "_", "i", "j", "k", "x", "y", "z"]}],
-        "one-var": 0, //we don't use one var keyword for all defs
-        "no-throw-literal": 0, //we sometimes throw strings, which is ok
-        "radix": 0, //don't force a radix
-        "eol-last": 1, //warn when file doesn't end with newline
-        "no-multi-spaces": 0, //we do .constant('blah',     require('blah')) a lot,
-        "no-irregular-whitespace": 0, //Some files have a BOM, doesn't seem to cause us problems
-        "no-trailing-spaces": 0, //VS doesn't clean up extra spaces on new lines, so this is annoying
+        //we don't use one var keyword for all defs
+        "one-var": 0,
+        //we sometimes throw strings, which is ok
+        "no-throw-literal": 0,
+        //don't force a radix
+        "radix": 0,
+        //warn when file doesn't end with newline
+        "eol-last": 1,
+        //we do .constant('blah',     require('blah')) a lot,
+        "no-multi-spaces": 0,
+        //VS doesn't clean up extra spaces on new lines, so this is annoying
+        "no-trailing-spaces": 0,
         "no-param-reassign": [2, { "props": false }],
         "space-before-function-paren": [2, "never"],
         "import/no-unresolved": 0,
