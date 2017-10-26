@@ -4,7 +4,7 @@
   "description": "Buildium's ESLint config, based on AirBnB's ES5 config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/buildium/eslint-config-buildium#readme",
   "dependencies": {},
   "peerDependencies": {
-    "eslint-plugin-buildium": "^2.0.0",
+    "eslint-plugin-buildium": "2.1.0",
     "eslint-config-airbnb-base": "~11.1.3"
   }
 }
