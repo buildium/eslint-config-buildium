@@ -21,8 +21,8 @@ module.exports = {
         "one-var": 0,
         //we sometimes throw strings, which is ok
         "no-throw-literal": 0,
-        //don't force a radix
-        "radix": 0,
+        //enforce radix
+        "radix": 2,
         //warn when file doesn't end with newline
         "eol-last": 1,
         //we do .constant('blah',     require('blah')) a lot,
