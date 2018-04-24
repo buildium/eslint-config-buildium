@@ -1,5 +1,5 @@
 module.exports = {
-    "sourceType": "script" //override airbnb-base
+    "sourceType": "script",  //override airbnb-base
     "extends": "airbnb-base",
     "plugins": [
         "buildium"
