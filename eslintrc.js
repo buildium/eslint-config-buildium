@@ -1,4 +1,5 @@
 module.exports = {
+    "sourceType": "script" //override airbnb-base
     "extends": "airbnb-base",
     "plugins": [
         "buildium"
@@ -47,6 +48,9 @@ module.exports = {
         "buildium/imports-jquery": 2,
         "buildium/imports-angular-bsfy": 2,
         "buildium/arrow-function-callback": 2,
-        "buildium/tagged-templates": 2
+        "buildium/tagged-templates": 2,
+        //Overriding airbnb-base, we are not adapting these yet
+        "prefer-const": 0,
+        "prefer-arrow-callback": 0
     }
 };
