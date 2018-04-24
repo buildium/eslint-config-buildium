@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-buildium",
-  "version": "5.0.0",
+  "version": "5.0.1-0",
   "description": "Buildium's ESLint config, based on AirBnB's ES5 config",
   "main": "index.js",
   "scripts": {
