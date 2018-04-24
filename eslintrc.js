@@ -1,9 +1,11 @@
 module.exports = {
-    "sourceType": "script",  //override airbnb-base
     "extends": "airbnb-base",
     "plugins": [
         "buildium"
     ],
+    parserOptions: {
+        sourceType: 'script' //override airbnb-base
+    },
     "rules": {
         //our indentation
         "indent": [2, 4, {"SwitchCase": 1}],
@@ -51,6 +53,10 @@ module.exports = {
         "buildium/tagged-templates": 2,
         //Overriding airbnb-base, we are not adapting these yet
         "prefer-const": 0,
-        "prefer-arrow-callback": 0
+        "prefer-arrow-callback": 0,
+        "linebreak-style": 0,
+        "arrow-parens": 0,
+        "import/newline-after-import": 0,
+        "import/no-extraneous-dependencies": 0
     }
 };
