@@ -57,6 +57,9 @@ module.exports = {
         "linebreak-style": 0,
         "arrow-parens": 0,
         "import/newline-after-import": 0,
-        "import/no-extraneous-dependencies": 0
+        "import/no-extraneous-dependencies": 0,
+        //Cannot do this yet
+        "object-shorthand": 0,
+        "arrow-body-style": 0
     }
 };
