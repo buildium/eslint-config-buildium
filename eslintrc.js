@@ -71,6 +71,10 @@ module.exports = {
         }, {
           property: '__defineSetter__',
           message: 'Please use Object.defineProperty instead.',
-        }]
+        }],
+        // EX. allows var a = 1 + 2 - 3, but not var a = 1 && 2 || 3
+        "no-mixed-operators": ['error', {"allowSamePrecedence": true}],
+        // allow forloop to use ++ --
+        "no-plusplus": ['error', {"allowForLoopAfterthoughts": true}]
     }
 };
