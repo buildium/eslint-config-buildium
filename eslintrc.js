@@ -60,6 +60,17 @@ module.exports = {
         "import/no-extraneous-dependencies": 0,
         //Cannot do this yet
         "object-shorthand": 0,
-        "arrow-body-style": 0
+        "arrow-body-style": 0,
+        'no-restricted-properties': ['error', {
+          object: 'arguments',
+          property: 'callee',
+          message: 'arguments.callee is deprecated',
+        }, {
+          property: '__defineGetter__',
+          message: 'Please use Object.defineProperty instead.',
+        }, {
+          property: '__defineSetter__',
+          message: 'Please use Object.defineProperty instead.',
+        }]
     }
 };
