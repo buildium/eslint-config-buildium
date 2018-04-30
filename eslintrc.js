@@ -76,6 +76,7 @@ module.exports = {
         "no-mixed-operators": ['error', {"allowSamePrecedence": true}],
         // allow forloop to use ++ --
         "no-plusplus": ['error', {"allowForLoopAfterthoughts": true}],
-        "prefer-spread": 0
+        "prefer-spread": 0,
+        "prefer-rest-params": 0
     }
 };
