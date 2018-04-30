@@ -58,8 +58,8 @@ module.exports = {
         "arrow-parens": 0,
         "import/newline-after-import": 0,
         "import/no-extraneous-dependencies": 0,
-        //Cannot do this yet
-        "object-shorthand": 0,
+        //Our release build does not support object shorthand yet
+        "object-shorthand": ['error', 'never'],
         "arrow-body-style": 0,
         'no-restricted-properties': ['error', {
           object: 'arguments',
