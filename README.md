@@ -18,7 +18,7 @@ And add buildium to your .eslintrc in the extend field:
 
 ```json
 {
-    "extend": "buildium"
+    "extends": "buildium"
 }
 ```
 
