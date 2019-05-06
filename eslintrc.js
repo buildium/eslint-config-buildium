@@ -4,16 +4,6 @@ module.exports = {
         'buildium'
     ],
     rules: {
-        // we use a custom rule for func names
-        'func-names': 'off',
-        'buildium/func-names': 'error',
-        'buildium/template-location': 'error',
-        'buildium/imports-lodash': 'error',
-        'buildium/imports-jquery': 'error',
-        'buildium/imports-angular-bsfy': 'error',
-        'buildium/arrow-function-callback': 'error',
-        'buildium/tagged-templates': 'error',
-
         // our indentation
         indent: ['error', 4, { SwitchCase: 1 }],
         // don't require dangling comma
@@ -41,9 +31,7 @@ module.exports = {
         'no-multi-spaces': 'off',
         // VS doesn't clean up extra spaces on new lines, so this is annoying
         'no-trailing-spaces': 'off',
-        'no-param-reassign': ['error', {
-            'props': false
-        }],
+        'no-param-reassign': ['error', { props: false }],
         'space-before-function-paren': ['error', 'never'],
         'no-underscore-dangle': 'off',
         'max-len': 'off',
@@ -54,6 +42,16 @@ module.exports = {
         'newline-per-chained-call': 'off',
         'space-in-parens': 'off',
         'wrap-iife': ['error', 'any'],
+
+        // we use a custom rule for func names
+        'func-names': 'off',
+        'buildium/func-names': 'error',
+        'buildium/template-location': 'error',
+        'buildium/imports-lodash': 'error',
+        'buildium/imports-jquery': 'error',
+        'buildium/imports-angular-bsfy': 'error',
+        'buildium/arrow-function-callback': 'error',
+        'buildium/tagged-templates': 'error',
         
         // Overriding airbnb-base, we are not adopting these
         'prefer-arrow-callback': 'off',
@@ -73,12 +71,8 @@ module.exports = {
             message: 'Please use Object.defineProperty instead.',
         }],
         // EX. allows var a = 1 + 2 - 3, but not var a = 1 && 2 || 3
-        'no-mixed-operators': ['error', {
-            allowSamePrecedence: true
-        }],
+        'no-mixed-operators': ['error', { allowSamePrecedence: true }],
         // allow for-loop to use ++ --
-        'no-plusplus': ['error', {
-            allowForLoopAfterthoughts: true
-        }],
+        'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
     }
 };
